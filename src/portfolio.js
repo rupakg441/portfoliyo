@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Rupakpasta",
-  linkedin: "https://www.linkedin.com/in/Rupakpasta/",
+  github: "https://github.com/rupakg441",
+  linkedin: "https://www.linkedin.com/in/rupak-giri-48a291198",
   gmail: "Rupakpasta70@gmail.com",
-  gitlab: "https://gitlab.com/Rupakpasta",
-  facebook: "https://www.facebook.com/Rupak.pasta7",
-  medium: "https://medium.com/@Rupakpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/Rupak-pasta",
+  gitlab: "https://gitlab.com/rupakg441",
+  facebook: "https://www.facebook.com/",
+  medium: "https://medium.com/",
+  stackoverflow: "https://stackoverflow.com/users/10422806/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -372,8 +372,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "Rupakpasta70@gmail.com"
+  number: "+91-7217600465",
+  email_address: "rupakg441@gmail.com"
 };
 
 // Twitter Section
