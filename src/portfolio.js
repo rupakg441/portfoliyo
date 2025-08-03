@@ -35,11 +35,12 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/rupakg441",
   linkedin: "https://www.linkedin.com/in/rupak-giri-48a291198",
-  gmail: "Rupakpasta70@gmail.com",
+  gmail: "rupakg441@gmail.com",
   gitlab: "https://gitlab.com/rupakg441",
   facebook: "https://www.facebook.com/",
   medium: "https://medium.com/",
   stackoverflow: "https://stackoverflow.com/users/10422806/",
+  instagram:"https://www.instagram.com/rupak_giri_001/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
