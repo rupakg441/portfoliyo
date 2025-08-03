@@ -41,6 +41,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <img
           crossOrigin={"anonymous"}
           ref={imgRef}
+          style={{objectFit: 'contain' }} 
           className="experience-roundedimg"
           src={cardInfo.companylogo}
           alt={cardInfo.company}

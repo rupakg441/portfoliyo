@@ -162,11 +162,11 @@ const greeting = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/Rupakpasta",
-  linkedin: "https://www.linkedin.com/in/Rupakpasta/",
-  gmail: "Rupakpasta70@gmail.com",
-  gitlab: "https://gitlab.com/Rupakpasta",
-  facebook: "https://www.facebook.com/Rupak.pasta7"
+  github: "https://github.com/rupakg441",
+  linkedin: "https://www.linkedin.com/in/rupak-giri-48a291198",
+  gmail: "rupakg441@gmail.com",
+  gitlab: "https://gitlab.com/rupakg441",
+  instagram:"https://www.instagram.com/rupak_giri_001/",
 };
 
 

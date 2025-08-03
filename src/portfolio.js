@@ -23,7 +23,7 @@ const greeting = {
   username: "Rupak Giri",
   title: "Hi all, I'm Rupak",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Laravel and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -37,10 +37,11 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/rupak-giri-48a291198",
   gmail: "rupakg441@gmail.com",
   gitlab: "https://gitlab.com/rupakg441",
-  facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/",
-  stackoverflow: "https://stackoverflow.com/users/10422806/",
   instagram:"https://www.instagram.com/rupak_giri_001/",
+  // facebook: "https://www.facebook.com/",
+  // medium: "https://medium.com/",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/",
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -127,24 +128,28 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Indira Gandhi National Open University (IGNOU), Delhi",
+      logo: require("./assets/images/Ignou_All_1692295773.webp"),
+      subHeader: "Bachelor of Computer Applications (BCA)",
+      duration: "June 2017 - June 2020",
+      desc: "Studied computer science with emphasis on web development, data structures, and databases.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built projects using Laravel, React.js, and MySQL",
+        "Strong foundation in OOP, DBMS, and system design"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Bihar School Examination Board (BSEB), Patna",
+      logo: require("./assets/images/unnamed.jpg"), // Add an appropriate logo if available
+      subHeader: "Intermediate of Science (I.Sc)",
+      duration: "June 2014 – June 2016",
+      desc: "Focused on core science subjects with specialization in Mathematics and Computer Science.",
+      descBullets: [
+        "Completed foundational coursework in Physics, Chemistry, and Mathematics",
+        "Introduced to basic computer programming and logical reasoning"
+      ]
     }
+    
   ]
 };
 
@@ -175,30 +180,46 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "PHP Developer (Laravel, React.js, WordPress)",
+      company: "Rigic Global Solutions Pvt Ltd",
+      companylogo: require("./assets/images/logo-landcape.png"), // Replace with actual logo if available
+      date: "Jan 2024 – Present",
+      desc: "Working as a full-stack developer specializing in Laravel, React.js, and WordPress. Contributed to building scalable web applications and improving frontend user experience.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed secure and efficient REST APIs using Laravel and Sanctum for authentication",
+        "Led frontend development with React.js to build responsive and user-friendly UIs",
+        "Designed and delivered WordPress sites using Elementor, ensuring performance and visual appeal"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+  role: "PHP (Laravel) Developer & Team Leader",
+  company: "InfyOm Technologies",
+  companylogo: require("./assets/images/a93174cb2f2d96ed4fedf53cd2ef1dc3-100.webp"), // Replace with actual logo if available
+  date: "Sep 2021 – Dec 2023",
+  desc: "Led a team of developers in building and maintaining Laravel-based applications. Managed project workflows, feature planning, and customer support activities.",
+  descBullets: [
+    "Started each day with Envato support ticket review and responded to customer queries",
+    "Resolved client issues via cPanel access and provided step-by-step custom integration guidance",
+    "Assigned tasks to team members, explained requirements, and guided them technically",
+    "Reviewed pull requests, merged code, and handled deployments to staging and production",
+    "Managed release cycles and fixed production issues promptly"
+  ]
+},
+{
+  role: "Web Developer (Trainee)",
+  company: "Bridge Technosoft",
+  companylogo: require("./assets/images/Bridge_Final_LOGO-Register.png"), // Replace with actual logo if available
+  date: "Mar 2019 – Oct 2019",
+  desc: "Completed an intensive web development training program focused on core technologies like HTML, CSS, JavaScript, and PHP.",
+  descBullets: [
+    "Gained hands-on experience in front-end and back-end development fundamentals",
+    "Assisted senior developers with coding, debugging, and testing web applications",
+    "Contributed to project delivery by learning and applying modern web development practices",
+    "Developed problem-solving and troubleshooting skills under mentorship"
+  ]
+}
+
+
   ]
 };
 
@@ -217,28 +238,39 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logodasdsadasdas.png"),
+      projectName: "Restaurant Management (SaaS)",
+      projectDesc: "Ready-made on-demand food delivery solution for restaurant and food outlets. Kick-start your food delivery business with our 100% white-labelled food delivery solutions.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://restaurant-management.infyom.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/a93174cb2f2d96ed4fedf53cd2ef1dc3-100.webp"),
+      projectName: "vCard Builder(SaaS)",
+      projectDesc: "Digital business card builder",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://vcards.infyom.com/"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/infyCare-logo.png"),
+      projectName: "InfyCare",
+      projectDesc: "Custom Doctor Appointment Booking Software",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://infycare.infyom.com/"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -344,7 +376,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -357,7 +389,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Rupak-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
